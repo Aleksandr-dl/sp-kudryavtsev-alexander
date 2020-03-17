@@ -35,9 +35,7 @@ display: flex;
 align-items: center;
 text-transform: uppercase;
 
-}    
-
-
+}
 
 
 
@@ -71,18 +69,26 @@ text-transform: uppercase;
     display: flex;
     align-items: center;
 
-
-
-
-
-
-    }
+}
+.header-list-link-conact:hover{
+    opacity: 0.5;
+}
+.header-list-link-conact:active{
+    opacity: 0.2;
+}
 
 
 .nav-item-contact{
     display: flex;
     align-items: center;
     margin-left: 24px;
+}
+.nav-item-contact:hover {
+    opacity: 0.5;
+}
+
+.nav-item-contact:active {
+    opacity: 0.2;
 }
 
 .search-contact {
@@ -98,7 +104,17 @@ text-transform: uppercase;
     width: 100px;
     min-width: 100px;
     height: 52px;
+
 }
+.header-logo:hover {
+    opacity: 0.5 ;
+}
+.header-logo:active {
+    opacity: 0.2;
+}
+
+
+
 .nav-item {
     font-style: normal;
     font-weight: normal;
@@ -107,6 +123,12 @@ text-transform: uppercase;
     color: #1E0606;
     margin-right: 15px;
 }    
+.nav-item:hover {
+    opacity: 0.5 ;
+}
+.nav-item:active {
+    opacity: 0.2;
+}
 
 .nav-item-contact {
     font-family: 'Open Sans';
@@ -132,15 +154,23 @@ text-transform: uppercase;
     width: 161px;
     min-height: 40px;
     padding: 9px;
-    
+  
+   
+}
+.pourple-link:hover {
+    background-color: #C29974;
+}
+.pourple-link:active {
 
-
-    
+    background-color: #CFAF91
 }
 
 
+
 .first-conteiner {
-    padding: 133px;
+    padding-left: 133px;
+    padding-bottom: 89px;
+    padding-top: 89px;
     margin-top: 130px;
     position: relative;
 }
@@ -161,9 +191,7 @@ text-transform: uppercase;
     
 width: 1180px;
 height: 39px;
-
-
-
+margin: 0;
 background: #C29974;
 
 
@@ -185,7 +213,7 @@ text-transform: uppercase;
 .poster {
     
     
-   
+   position: relative;
     
     background: #EEE4DB;
 
@@ -281,6 +309,12 @@ line-height: 32px;
 
 
 color: #1E0606;
+}
+.about-us:hover {
+    opacity: 0.5;
+}
+.about-us:active {
+    opacity: 0.2;
 }
 
 .design-Life-kids-small {
@@ -406,6 +440,9 @@ color: #1E0606;
     text-transform: uppercase;
     color: #FFFFFF;
 }
+.lattery-a:hover {
+    text-decoration-line: underline;
+}
 
 .lattery-zz{
    
@@ -424,6 +461,10 @@ text-align: center;
 text-transform: uppercase;
 color: #FFFFFF;
 }
+.lattery-zz:hover {
+    text-decoration-line: underline;
+}
+
 
 .about-purchase {
   display: flex;
@@ -458,6 +499,7 @@ color: #1E0606;
 margin-top: 30px;
 }
 
+
 .button-delivery-first {
     font-family:'Crimson Text';
 font-style: italic;
@@ -471,6 +513,12 @@ top: 1392px;
 color: #1E0606;
 margin-bottom: 22px;
 
+}
+
+.button-delivery-first:hover {
+    font-weight: bold;
+    width: 326px;
+    background-color:rgba(112, 187, 220, 0.2);
 
 }
 
@@ -575,11 +623,18 @@ color: #A2A2A2;
     border-radius: 15px;
     width: 30px;
     height: 30px;
-    margin-right: 10px;
-    
+    margin-right: 10px;    
 }
+.link-button:hover {
+    opacity: 0.5;
+}
+.link-button:active {
+    opacity: 0.2;
+}
+
 .rating {
     display: flex;
+    align-items: center;
     
 }
 
@@ -764,6 +819,9 @@ border: 0;
     width: 100vw;
     display: flex;
 }
+.modal-bg_close {
+    display: none;
+}
 
 .modal-window-1 {
     position: relative;
@@ -782,4 +840,59 @@ border: 0;
     flex-direction: column;
         align-items: flex-start;
         
+}
+
+.palochki {
+    list-style-type: none; 
+    position: absolute;
+    padding: 0;
+    left: 28px;
+    
+    
+}
+.cifra {
+    width: 61px;
+}
+.blog:hover {
+    opacity: 0.5;
+}
+.blog:active {
+    opacity: 0.2;
+} 
+.design-services:hover {
+    opacity: 0.5;
+}
+.design-services:active {
+    opacity: 0.2;
+}
+.featured-on:hover {
+    opacity: 0.5;
+}
+.featured-on:active {
+    opacity: 0.2;
+}
+.holiday-catalog:hover {
+    opacity: 0.5;
+}
+.holiday-catalog:active {
+    opacity: 0.2;
+}
+
+.shop-by-designer:hover {
+    opacity: 0.5;
+
+}
+.shop-by-designer:active {
+    opacity: 0.2;
+}
+.footer-right:hover {
+    text-decoration-line: underline;
+
+}
+.footer-right:active {
+    text-decoration-line: underline;
+
+}
+.footer-spisok:hover {
+    color: #C29974;
 }

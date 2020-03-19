@@ -39,6 +39,14 @@
     padding: 9px;
     margin-top: 79px;
 }
+.APPLY:hover {
+    background-color: #C29974;
+}
+.APPLY:active {
+
+    background-color: #CFAF91
+}
+
 .spisok {
     list-style-type: none; 
     padding: 0;
@@ -121,20 +129,44 @@ color: #1E0606;
 
 .input {
     display: none;
-  }
+ }
   
   .input:checked + .label {
-    color: red;
+    /* color: red; */
   }
   
   .label {
     cursor: pointer;
     background-color: #FFFFFF;
-    
-    
-  }
-.input-wrapper {
     width: 80px;
     height: 35px;
-    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: normal;
+}
+.label:hover {
+    background-color:#EDDEEB;
+    opacity: 0.5;
+}
+.label:active {
+  background-color:#F3D0DB;
+}
+.input-wrapper {
+    
+  /* /* width: 80px;  */
+}
+.qwerty {
+    
+    width: 19px;
+    height: 19px;
+    box-shadow: 0 0 0 2px #C29974;
+    
+}
+.radio-button {
+    height: 20px;
+    width: 20px;
+    
 }

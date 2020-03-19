@@ -45,14 +45,14 @@ color: #1E0606;
    display: flex;
    justify-content: space-between;
     flex-wrap: wrap;
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
 .conteiner-mini {
 
     flex-wrap: wrap;
     width: 380px;
-    margin-top: 20px;
+    /* margin-top: 20px; */
 }
 .pages {
 
@@ -82,4 +82,12 @@ color: #1E0606;
     display: flex;
     width: 215px;
     justify-content: space-between;
+}
+.conteiner-mini-ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
 }

@@ -6,11 +6,9 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,800,900&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Crimson+Text:400i,600i,700i&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="common.css">
-  <link rel="stylesheet" href="common2.css">
-  <link rel="stylesheet" href="common4.css">
-  <link rel="stylesheet" href="common3.css">
   
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="common3.css">
   <title>DLK</title>
 </head>
   <body>
@@ -26,26 +24,25 @@
         </ul>
        <div class ="search-contact"> 
         <a href="#" class="header-list-link">
-          <img class="header-list-link-conact" src="pictures/XMLID 1397.png" alt="search">
+          <img class="header-list-link-conact" src="pictures/XMLID1397.png" alt="search">
         </a>
         <a class="nav-item-contact" href="#">Contact Us</a> 
        </div>       
         
       </nav>
     </header>
-    <section class="category-products container">
-        <h3 class="category-title-second container"> Blog </h3>
-      </section>
-      <section class="container vector-button">
+    <section class="container category-products">
+        <h3 class="category-title-second category-title container"> Toy for kids </h3>
+      
         <div class="">
         <ul class="vector-button-head">
           <li><a class="nav-vector-button-home" href="index.html">Home</a></li>
           <li>
-          <img class="vector" src="pictures/Vector (Stroke).png" alt="right">
+          <img class="vector" src="pictures/Vector-(Stroke).png" alt="right">
           </li>
           <li><a class="nav-vector-button-home" href="index4.html">Blog</a></li>
           <li>
-            <img class="vector" src="pictures/Vector (Stroke).png" alt="right">
+            <img class="vector" src="pictures/Vector-(Stroke).png" alt="right">
           </li>
           <li><a class="nav-vector-button-catalog" href="#">Toys</a></li>
         </ul>      
@@ -54,11 +51,14 @@
       <section class="cost">
         <div class="container cost-cost">
           <ul class="spisok">
-             <li><h3 class="all-spisok">Cost</h3></li> 
-             
-             <div class="slidecontainer">
+             <li>
+               <h3 class="all-spisok">Cost</h3>
+             </li> 
+             <li>
+               <div class="slidecontainer">
                 <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
-             </div>
+               </div>
+             </li>
              <li class="slaider-number"> 
                  <p class="number">0</p>
                  <p class="number">500</p>
@@ -69,23 +69,21 @@
             <li><h3 class="all-spisok">Color</h3></li> 
 
             <li  class="shipping-color">
-              <input  class="qwerty"  type="checkbox" name="" id="">
-                <!-- <img class="shipping-img" src="pictures/tics.png" alt=""> -->
-                <h3 class="shipping-margin">Black</h3>
+              <input  class="qwerty"  type="checkbox" name="checkbox-black" id="checkbox-black">
+              <h3 class="shipping-margin">Black</h3>
             </li>
             <li  class="shipping-color">
-              <input  class="qwerty"  type="checkbox" name="" id="">
-                <!-- <img class="shipping-img" src="pictures/box.png" alt=""> -->
-                <h3 class="shipping-margin">Blue</h3>
+              <input  class="qwerty"  type="checkbox" name="checkbox-blue" id="checkbox-blue">
+              <h3 class="shipping-margin">Blue</h3>
             </li>
             <li class="shipping-color">
-              <input  class="qwerty"  type="checkbox" name="" id="">
-                <!-- <img class="shipping-img" src="pictures/box.png" alt=""> -->
+              <input  class="qwerty"  type="checkbox" name="checkbox-green" id="checkbox-green">
+               
                 <h3 class="shipping-margin">Green</h3>
             </li>
             <li class="shipping-color">
-              <input  class="qwerty"  type="checkbox" name="" id="">
-                <!-- <img class="shipping-img" src="pictures/box.png" alt=""> -->
+              <input  class="qwerty"  type="checkbox" name="checkbox-white" id="checkbox-white">
+                
                 <h3 class="shipping-margin">White</h3>
             </li>
             
@@ -94,23 +92,22 @@
          <ul class="spisok">
             <li><h3 class="all-spisok">Delivery</h3></li> 
             <li class="shipping">
-                <!-- <img class="shipping-img" src="pictures/fast shipping.png" alt=""> -->
-                <input class="radio-button" type="radio" name="" id="">
+                
+                <input class="radio-button" type="radio" name="free-shipping" id="free-shipping">
                 <h3 class="shipping-margin">Free shipping</h3>
             </li>
             <li class="shipping shipping-end">
-                <!-- <img class="shipping-img" src="pictures/free shipping.png" alt=""> -->
-                <input class="radio-button" type="radio" name="" id="">
+               
+                <input class="radio-button" type="radio" name="fast-shipping" id="fast-shipping">
                 <h3 class="shipping-margin">Fast shipping</h3>
             </li>
             
          </ul>
          <ul class="spisok">
-            <li><h3 class="all-spisok">Amount</h3></li> 
-            <!-- <li class="allin">
-                <img class="" src="pictures/0-5.png" alt="">
-                <img class="" src="pictures/10-20.png" alt="">
-                <img class="" src="pictures/20-50.png" alt=""> -->
+            <li>
+              <h3 class="all-spisok">Amount</h3>
+            </li> 
+            <li>
                 <div class="inputs">
                   <div class="input-wrapper">
                     <input class="input" type="radio" name="amount" id="one">
@@ -125,10 +122,8 @@
                     <label class="label" for="three">20-50</label>
                   </div>
                 </div>
-            <!-- </li> -->
-
-            <!-- <li><img class="" src="pictures/10-20.png" alt=""></li>
-            <li><img class="" src="pictures/20-50.png" alt=""></li> -->
+            </li>
+            
          </ul>
          
           <div>
@@ -139,6 +134,7 @@
         
       </section>
       <section class="container mini-mini-3">
+        <h2 class="show">sharhs </h2>
         <div class="conteiner-mini">
             <img class="shark" src="pictures/sherky.png" alt="cons">
             <p class="august">    SHARKY BEAN BAG CHAIR COVER           </p>
@@ -179,53 +175,53 @@
 
 
 
-      <section class="container pages">
-        <div class="pages-pages">
+      <!-- <section class="container pages"> -->
+        <div class="pages-pages container">
           <div>
               <button class="arrow-4-pages"> 
-                <a href="">
+                
                   <img class="arrows-l-r" src="pictures/Vector-left-4.png" alt="left">
-                </a> 
+                
                 </button>
           </div>  
           <div class="button-number">
               <button class="number">  
-                <a href="">
+                
                   <img src="pictures/1.png" alt="left">
-                  </a>
+                  
                 </button>
                 <button class="number">
-                  <a href="">
+                  
                   <img src="pictures/2.png" alt="left">
-                  </a>  
+                  
                 </button>
                 <button class="number"> 
-                  <a href="">
+                  
                   <img src="pictures/3.png" alt="left">
-                  </a>
+                  
                 </button>
                 <button class="number">  
-                  <a href="">
+                  
                   <img src="pictures/4.png" alt="left">
-                </a>
+                
                 </button>
           </div> 
           <div>
               <button class="arrow-4-pages">  
-                <a href="">
+                
                   <img class="arrows-l-r" src="pictures/Vector-right-4.png" alt="left">
-                </a>
+                
                 </button>
           </div>
           
         </div>
-    </section>
+    <!-- </section> -->
     <footer class="footer">
       <div class="container">
        <div class="footer-gray container">
         <section>
          <h3 class="footer-nav">Navigation</h3>
-          <img class="line" src="pictures/Line.png">
+          <img class="line" src="pictures/Line.png" alt="line">
           <nav>
            <ul class="footer-spisok">
             <li class="margin"><a class="about-us footer-spisok" href="#"> About Us </a></li>
@@ -244,7 +240,7 @@
         
        <section>
         <h3 class="footer-nav">Customer Information</h3>
-        <img class="line" src="pictures/Line.png">
+        <img class="line" src="pictures/Line.png" alt="line">
          <ul class="footer-spisok">        
           <li class="margin"><a class="about-us footer-spisok" href="#">Contact Us </a></li>
           <li class="margin"><a class="blog footer-spisok" href="#"> Sale Exclusions </a></li>
@@ -257,7 +253,7 @@
        </section>    
        <section> 
         <h3 class="footer-nav">Connect</h3>       
-        <img class="line" src="pictures/Line.png">
+        <img class="line" src="pictures/Line.png" alt="line">
          <form class="email-submit" action="email">
           <input class="email" type="email" name="email" id="#" placeholder="Email">
           <button class="submit" type="submit"> join </button>  
@@ -290,7 +286,7 @@
        
       </div>
 
-      <img class="line" src="pictures/Line big.png">
+      <img class="line" src="pictures/Line-big.png" alt="line">
 
 
       <div class="footer-gray second-footer">

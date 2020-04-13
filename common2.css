@@ -7,7 +7,10 @@ font-size: 38px;
 line-height: 46px;
 text-transform: uppercase;
 color: #1E0606;
-margin-top: 60px;
+}
+
+.category-products {
+    margin-top: 60px;
 }
 
 .vector-button {
@@ -98,14 +101,63 @@ opacity: 0.5;
 }
 
 .three {
-    margin-right: 300px;
+    margin-right: 270px;
 }
 
 .fourth {
-    margin-left: 200px;
+    margin-left: 170px;
 }
 
 .last-image {
 
     margin-right: 100px;
+}
+.later {
+    position: relative;
+}
+
+.lattery {
+    position: relative;
+    
+
+}
+
+.lattery-a {
+    position: absolute;
+    left:  8.14%;
+    right: 22.5%;
+    top: 24.15%;
+    transform: translate(10%);
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.lattery-a:hover {
+    text-decoration-line: underline;
+}
+
+.lattery-zz{
+   
+    position: absolute;
+left: 7.14%;
+right: 22.5%;
+top: 27.15%;
+transform: translate(10%);
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 32px;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.lattery-zz:hover {
+    text-decoration-line: underline;
 }

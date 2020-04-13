@@ -11,11 +11,29 @@
 .august {
     display: flex;
     justify-content: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    
+    
+    color: #818181;
+    
+    mix-blend-mode: normal;
 }
 .fastest {
     display: flex;
     justify-content: center;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 31px;
+color: #1E0606;
 }
+
 .mini-mini-3 {
     display: flex;
     justify-content: space-between;
@@ -132,7 +150,7 @@ color: #1E0606;
  }
   
   .input:checked + .label {
-    /* color: red; */
+    
   }
   
   .label {
@@ -170,3 +188,85 @@ font-weight: normal;
     width: 20px;
     
 }
+.vector-button-head {
+    
+    list-style-type: none;
+    padding-left: 0;     
+    display: flex;
+    align-items: center;
+    
+}
+
+.nav-vector-button-home {
+    font-family: 'Crimson Text';
+font-style: italic;
+font-weight: normal;
+font-size: 20px;
+line-height: 25px;
+color: #1E0606;
+margin-right: 20px;
+}
+.vector {
+    
+    margin-right: 20px;
+
+
+}
+.nav-vector-button-catalog {
+    font-family: 'Crimson Text';
+font-style: italic;
+font-weight: normal;
+font-size: 20px;
+line-height: 25px;
+color: #1E0606;
+opacity: 0.5;
+}
+.category-products {
+    margin-top: 60px;
+}
+.category-title {
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: bold;
+font-size: 38px;
+line-height: 46px;
+text-transform: uppercase;
+color: #1E0606;
+margin-top: 90px;
+}
+.pages {
+
+    margin-top: 50px
+}
+
+.pages-pages {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 63px;
+    margin-top: 53px;
+}
+
+.arrow-4-pages {
+    border: 0;
+    background: none;
+    
+}
+.arrows-l-r {
+    width: 13px;
+}
+.number {
+    border: 0;
+    background: none;
+    cursor: pointer;
+}
+.number:hover {
+    opacity: 0.5;
+}
+.button-number {
+    display: flex;
+    width: 215px;
+    justify-content: space-between;
+}
+.show{
+    display: none;
+ }

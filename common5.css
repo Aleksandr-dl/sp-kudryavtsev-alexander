@@ -102,3 +102,48 @@
     margin-top: 20px;    
     color: #1E0606;
 }
+.category-title-second {
+    font-family: 'Montserrat';
+   font-style: normal;
+font-weight: bold;
+font-size: 38px;
+line-height: 46px;
+text-transform: uppercase;
+color: #1E0606;
+}
+.vector-button-head {
+    
+    list-style-type: none;
+    padding-left: 0;     
+    display: flex;
+    align-items: center;
+    
+}
+
+.nav-vector-button-home {
+    font-family: 'Crimson Text';
+font-style: italic;
+font-weight: normal;
+font-size: 20px;
+line-height: 25px;
+color: #1E0606;
+margin-right: 20px;
+}
+.vector {
+    
+    margin-right: 20px;
+
+
+}
+.nav-vector-button-catalog {
+    font-family: 'Crimson Text';
+font-style: italic;
+font-weight: normal;
+font-size: 20px;
+line-height: 25px;
+color: #1E0606;
+opacity: 0.5;
+}
+.category-products {
+    margin-top: 60px;
+}

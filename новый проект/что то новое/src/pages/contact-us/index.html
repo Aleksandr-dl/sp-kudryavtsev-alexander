@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+  <meta charset="UTF-8"> 
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,800,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Crimson+Text:400i,600i,700i&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../common.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="../category-products/style.scss">
+  <title>DLK</title>
+</head>
+@@include('header/index.html')
+<section class="category-products container">
+  <h3 class="category-title-second container"> Contact Us </h3>
+
+  <div class="">
+  <ul class="vector-button-head">
+    <li><a class="nav-vector-button-home" href="index.html">Home</a></li>
+    <li>
+    <img class="vector" src="../../static/images/Vector-(Stroke).png" alt="right">
+    </li>
+    <li><a class="nav-vector-button-catalog" href="#">Contact Us</a></li>
+  </ul>      
+  </div>
+</section>
+<main>
+  <div class="container contact-us-box"> 
+    <div class="container-left">  
+      <!-- <h1>Contact Us</h1> -->
+      <form class="modal-window" action="https://form-data-dl.herokuapp.com/api/messages" method="post">
+       
+        <div class="form-row-end">
+          <label class="form-label-end" for="form-name">Name</label>
+          <input class="form-input-end" id="form-name" type="text" name="name" placeholder="Ivan Ivanov">
+        </div>
+        <div class="form-row-end">
+          <div class="form-row-end-290">
+            <label class="form-label-end" for="form-name">Phone</label>
+            <input class="form-input-end" id="phone" type="text" name="phone">
+          </div> 
+          <div class="form-row-end-290"> 
+            <label class="form-label-end" for="form-name">Email</label>
+            <input class="form-input-end" id="email" type="email" name="email">
+          </div>
+        </div>
+        
+        <div class="form-row-end">
+          <label class="form-label-end" for="form-name">Message</label>
+          <textarea class="form-input-end" name="message"  id="form-message" ></textarea>
+        </div>
+        <div class="by-click-on">
+          <input type="checkbox" name="accept" id="accept">
+          <p class="click-true">By clicking on the button, you consent to the processing of your personal data</p>
+        </div>
+        
+
+        <!-- <button class="pourple-link" type="submit">SUBMIT</button> -->
+        @@include('button/index.html', {
+          "text":"SUBMIT"
+        })
+        
+      </form>
+    </div>
+    <div class="contaier-right">
+      <p class="Our-support">Our support team are on-hand to assist with any issues you are experiencing.</p>
+      <p class="Our-support">Please use the form to contact us with your needs. Send us a message and we'll respond as soon as possible.</p>
+      <p class="An-expert">An expert is waiting to help you!</p>
+    </div>
+  </div> 
+</main>
+@@include('footer/index.html')

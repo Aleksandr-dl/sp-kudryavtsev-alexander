@@ -1,0 +1,149 @@
+.body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.contact-us-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.An-expert {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 34px;
+
+
+    text-transform: uppercase;
+
+    color: #C29974;
+}
+
+.Our-support {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+
+    color: #1E0606;
+}
+
+.container-left {
+    width: 680px;
+    margin-bottom: 60px;
+}
+
+.contaier-right {
+    margin-left: 120px;
+}
+
+/* form */
+
+.form-row-end-290 {
+    
+    width: 290px;
+}
+
+.form-row-end {
+    
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 23px;
+    width: 600px;
+    margin-top: 20px;
+}
+
+.form-label-end {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+
+
+    color: #1E0606;
+    top: 0;
+    position: absolute;
+}
+
+.form-input-end {
+    font-family: 'Roboto' ;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #1E0606;
+    padding: 12px 18px;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    
+    box-sizing: border-box;
+    resize: none;
+}
+
+.by-click-on {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.click-true {
+    margin-left: 15px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    margin-top: 20px;    
+    color: #1E0606;
+}
+.category-title-second {
+    font-family: 'Montserrat';
+   font-style: normal;
+font-weight: bold;
+font-size: 38px;
+line-height: 46px;
+text-transform: uppercase;
+color: #1E0606;
+}
+.vector-button-head {
+    
+    list-style-type: none;
+    padding-left: 0;     
+    display: flex;
+    align-items: center;
+    
+}
+
+.nav-vector-button-home {
+    font-family: 'Crimson Text';
+font-style: italic;
+font-weight: normal;
+font-size: 20px;
+line-height: 25px;
+color: #1E0606;
+margin-right: 20px;
+}
+.vector {
+    
+    margin-right: 20px;
+
+
+}
+.nav-vector-button-catalog {
+    font-family: 'Crimson Text';
+font-style: italic;
+font-weight: normal;
+font-size: 20px;
+line-height: 25px;
+color: #1E0606;
+opacity: 0.5;
+}
+.category-products {
+    margin-top: 60px;
+}

@@ -1,0 +1,546 @@
+.first-conteiner {
+    padding-left: 133px;
+    padding-bottom: 89px;
+    padding-top: 89px;
+    margin-top: 130px;
+    position: relative;
+}
+
+
+
+.poster-title {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 110%;
+    color: #1E0606;  
+    margin-top: 0;
+    
+}
+.poster-down {
+    
+width: 1180px;
+height: 39px;
+margin: 0;
+background: #C29974;
+
+
+}
+.poster-mini {
+    font-family: "Open Sans";
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 16px;
+color: #FFFFFF;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+}
+
+.poster {
+    
+    
+   position: relative;
+    
+    background: #EEE4DB;
+
+   
+   
+
+
+}
+
+.poster-picture {
+    display: flex;
+    
+    position: absolute;
+width: 635.49px;
+height: 461px;
+left: 448px;
+bottom: 0%;
+    
+}
+
+.partners {
+    margin-top: 91px;
+    margin-bottom: 90px;
+}
+
+.partners-list {
+    list-style-type: none;
+    display:flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.d-l-k {
+ display: flex;
+ justify-content: space-around;
+ position: relative;
+ align-items: baseline;
+}
+
+.design-Life-kids {
+    
+    
+    width: 357px;
+height: 47px;
+left: 140px;
+top: 2043px;
+
+/* Title two */
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: bold;
+font-size: 38px;
+line-height: 46px;
+/* identical to box height */
+
+text-transform: uppercase;
+
+/* Black */
+
+color: #1E0606;
+}
+
+.design-Life-kids-smalll {
+    width: 483px;
+height: 66px;
+left: 740px;
+top: 2110px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 22px;
+
+/* Black */
+
+color: #1E0606;
+}
+
+.about-Us {
+    width: 85px;
+height: 33px;
+left: 140px;
+top: 2100px;
+
+font-family: 'Crimson Text';
+font-style: italic;
+font-weight: normal;
+font-size: 26px;
+line-height: 32px;
+/* identical to box height */
+
+
+color: #1E0606;
+}
+.about-us:hover {
+    opacity: 0.5;
+}
+.about-us:active {
+    opacity: 0.2;
+}
+
+.design-Life-kids-small {
+    width: 483px;
+height: 67px;
+left: 140px;
+top: 2143px;
+
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 22px;
+}
+
+.design-Life-kids-back {
+    width: 543px;
+height: 236px;
+background: #E1F0F7;
+
+
+    
+}
+
+.contactss {
+    background: #E1F0F7;
+    
+
+}
+
+
+.map-image {
+width: 483px;
+height: 196px;
+
+}
+
+.Designed-in-Slovenia {
+    font-family: 'Crimson Text';
+font-style: italic;
+font-weight: normal;
+font-size: 20px;
+line-height: 25px;
+margin-top: 0;
+
+}
+.category-title {
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: bold;
+font-size: 38px;
+line-height: 46px;
+text-transform: uppercase;
+color: #1E0606;
+margin-top: 90px;
+
+
+}
+
+.category-pictyre {
+    list-style-type: none;
+   padding: 0;
+   display: flex;
+   justify-content: space-between;
+   margin-top: 30px;
+   
+
+}
+
+
+.hidden {
+    display: none
+}
+.arrows {
+    display: flex;
+    align-items: center;
+    
+}
+
+.arrow {
+    width: 37px;
+height: 37px;
+padding: 0;
+border: 0;
+margin-right: 6px;
+
+}
+
+.HZ {
+    margin-left: 20px;
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 22px;
+color: #1E0606;
+    
+}
+
+.later {
+    position: relative;
+}
+
+.lattery {
+    position: relative;
+    
+
+}
+
+.lattery-a {
+    position: absolute;
+    left:  8.14%;
+    right: 22.5%;
+    top: 24.15%;
+    transform: translate(10%);
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.lattery-a:hover {
+    text-decoration-line: underline;
+}
+
+.lattery-zz{
+   
+    position: absolute;
+left: 7.14%;
+right: 22.5%;
+top: 27.15%;
+/* bottom: 38.15%; */
+transform: translate(10%);
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 32px;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.lattery-zz:hover {
+    text-decoration-line: underline;
+}
+
+
+.about-purchase {
+  display: flex;
+  margin-top: 94px;
+
+}
+
+.woman {
+    
+    margin-left: 120px;
+    
+   
+}
+
+.button-delivery {
+    
+    display: flex;
+    flex-direction: column;
+    border: 0;
+}
+  
+
+
+.delivery-title {
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: bold;
+font-size: 38px;
+line-height: 46px;
+text-transform: uppercase;
+color: #1E0606;
+margin-top: 30px;
+}
+
+
+.button-delivery-first {
+    font-family:'Crimson Text';
+font-style: italic;
+font-weight: normal;
+font-size: 26px;
+line-height: 32px;
+
+height: 33px;
+left: 710px;
+top: 1392px;
+color: #1E0606;
+margin-bottom: 22px;
+
+}
+
+.button-delivery-first:hover {
+    font-weight: bold;
+    width: 326px;
+    background-color:rgba(112, 187, 220, 0.2);
+
+}
+
+.woman-text {
+    width: 480px;
+
+left: 710px;
+top: 1510px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 22px;
+
+
+
+color: #1E0606;
+}
+
+.woman-button {
+margin-top: 26px;
+}
+
+
+
+.modal-bg {
+    position: fixed;
+    background-color: rgba(125, 151, 218, 0.8);
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.modal-window {
+    
+    background-color: #E5EAF8;
+    padding: 50px;
+    position: relative;
+    padding-top: 23px;
+    
+    
+}
+
+
+
+
+
+.form-row-290 {
+    position: relative;
+    padding-top: 23px;
+    width: 290px;
+}
+
+.form-row {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 23px;
+    width: 600px;
+
+}
+
+.form-label {
+    top: 6px;
+    position: absolute;
+}
+
+.form-input {
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+} 
+
+.modal-close {
+    border: none;
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    right: -10px;
+    padding: 0px;
+
+}
+
+
+
+
+.form-row-end-290 {
+    
+    width: 290px;
+}
+
+.form-row-end {
+    
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 23px;
+    width: 600px;
+    margin-top: 20px;
+}
+
+.form-label-end {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+
+
+    color: #1E0606;
+    top: 0;
+    position: absolute;
+}
+
+.form-input-end {
+    font-family: 'Roboto' ;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #1E0606;
+    padding: 12px 18px;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    
+    box-sizing: border-box;
+}
+
+.by-click-on {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.click-true {
+    margin-left: 15px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    margin-top: 20px;    
+    color: #1E0606;
+}
+
+.modal-bg-1 {
+    position: fixed;
+    background: rgba(125, 151, 218, 0.8);
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+.modal-bg_close {
+    display: none;
+}
+
+.modal-window-1 {
+    position: relative;
+    padding: 50px;
+    background-color: #EEEEEE;
+    margin: auto;
+}
+
+.rectangle {
+    width: 31px;
+    margin-bottom: 11px;
+}
+
+.rectangle-1 {
+    display: flex;
+    flex-direction: column;
+        align-items: flex-start;
+        
+}
+
+.palochki {
+    list-style-type: none; 
+    position: absolute;
+    padding: 0;
+    left: 28px;
+    
+    
+}
+.cifra {
+    width: 61px;
+}

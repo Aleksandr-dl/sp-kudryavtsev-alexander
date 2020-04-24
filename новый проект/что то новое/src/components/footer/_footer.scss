@@ -1,0 +1,178 @@
+.footer-nav {
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 22px;
+color: #AAAAAA; 
+margin-top: 100px;
+}
+.footer {
+    display: flex;
+    background: #434343;
+    
+}
+
+.footer-gray {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+
+}
+
+.footer-spisok {
+    list-style-type: none;
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 22px;
+padding-left: 0;
+color: #FFFFFF;
+}
+.second-footer {
+    margin-bottom: 100px;
+}
+
+.footer-center {
+    margin-left: 45px;
+}
+
+.footer-right {
+    margin-right: 85px
+}
+.pertner-item {
+    border-radius: 15px;
+    background: #666666;
+}
+
+.socail-li {
+    display: flex;
+}
+
+.margin {
+    margin-bottom: 15px;
+}
+.web-design {
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 22px;
+
+display: flex;
+align-items: center;
+
+color: #A2A2A2;
+
+}
+
+.rating-button {
+    padding: 0;
+    border: 0;
+    
+    border-radius: 15px;
+    width: 17px;
+    height: 17px;
+    margin-right: 2px;
+    background: #434343;
+
+}
+.link-button {
+    padding: 0;
+    border: 0;
+    background: #666666;
+    border-radius: 15px;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;    
+    cursor: pointer;
+}
+.link-button:hover {
+    opacity: 0.5;
+}
+.link-button:active {
+    opacity: 0.2;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+    
+}
+
+.rating-buttons {
+    display: flex;
+    margin-left: 25px;
+}
+.email-submit {
+    display: flex;
+    margin-top: 9px;
+    
+    color: #EBEBEB;
+}
+
+.email {
+    width: 299px;
+    height: 40px;
+    
+    border: none;
+    
+    background-color: #666666;
+    
+}
+.submit {
+    width: 81px;
+    height: 40px;
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: bold;
+
+text-transform: uppercase;
+    color: #FFFFFF;
+background: #000000;
+border: 0;
+}
+.blog:hover {
+    opacity: 0.5;
+}
+.blog:active {
+    opacity: 0.2;
+} 
+.design-services:hover {
+    opacity: 0.5;
+}
+.design-services:active {
+    opacity: 0.2;
+}
+.featured-on:hover {
+    opacity: 0.5;
+}
+.featured-on:active {
+    opacity: 0.2;
+}
+.holiday-catalog:hover {
+    opacity: 0.5;
+}
+.holiday-catalog:active {
+    opacity: 0.2;
+}
+
+.shop-by-designer:hover {
+    opacity: 0.5;
+
+}
+.shop-by-designer:active {
+    opacity: 0.2;
+}
+.footer-right:hover {
+    text-decoration-line: underline;
+
+}
+.footer-right:active {
+    text-decoration-line: underline;
+
+}
+.footer-spisok:hover {
+    color: #C29974;
+}

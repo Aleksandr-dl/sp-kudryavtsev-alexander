@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+  <meta charset="UTF-8"> 
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,800,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Crimson+Text:400i,600i,700i&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../common.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="../catalog/style.scss">
+  <title>DLK</title>
+</head>
+@@include('header/index.html')
+<section class="container category-products">
+  <h3 class="category-title-second category-title container"> Toy for kids </h3>
+
+  <div class="">
+  <ul class="vector-button-head">
+    <li><a class="nav-vector-button-home" href="index.html">Home</a></li>
+    <li>
+    <img class="vector" src="../../static/images/Vector-(Stroke).png" alt="right">
+    </li>
+    <li><a class="nav-vector-button-home" href="index4.html">Blog</a></li>
+    <li>
+      <img class="vector" src="../../static/images/Vector-(Stroke).png" alt="right">
+    </li>
+    <li><a class="nav-vector-button-catalog" href="#">Toys</a></li>
+  </ul>      
+  </div>
+</section>
+<section class="cost">
+  <div class="container cost-cost">
+    <ul class="spisok">
+       <li>
+         <h3 class="all-spisok">Cost</h3>
+       </li> 
+       <li>
+         <div class="slidecontainer">
+          <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+         </div>
+       </li>
+       <li class="slaider-number"> 
+           <p class="number">0</p>
+           <p class="number">500</p>
+       </li>
+       
+    </ul>
+    <ul class="spisok">
+      <li><h3 class="all-spisok">Color</h3></li> 
+
+      <li  class="shipping-color">
+        <input  class="qwerty"  type="checkbox" name="checkbox-black" id="checkbox-black">
+        <h3 class="shipping-margin">Black</h3>
+      </li>
+      <li  class="shipping-color">
+        <input  class="qwerty"  type="checkbox" name="checkbox-blue" id="checkbox-blue">
+        <h3 class="shipping-margin">Blue</h3>
+      </li>
+      <li class="shipping-color">
+        <input  class="qwerty"  type="checkbox" name="checkbox-green" id="checkbox-green">
+         
+          <h3 class="shipping-margin">Green</h3>
+      </li>
+      <li class="shipping-color">
+        <input  class="qwerty"  type="checkbox" name="checkbox-white" id="checkbox-white">
+          
+          <h3 class="shipping-margin">White</h3>
+      </li>
+      
+
+   </ul>
+   <ul class="spisok">
+      <li><h3 class="all-spisok">Delivery</h3></li> 
+      <li class="shipping">
+          
+          <input class="radio-button" type="radio" name="free-shipping" id="free-shipping">
+          <h3 class="shipping-margin">Free shipping</h3>
+      </li>
+      <li class="shipping shipping-end">
+         
+          <input class="radio-button" type="radio" name="fast-shipping" id="fast-shipping">
+          <h3 class="shipping-margin">Fast shipping</h3>
+      </li>
+      
+   </ul>
+   <ul class="spisok">
+      <li>
+        <h3 class="all-spisok">Amount</h3>
+      </li> 
+      <li>
+          <div class="inputs">
+            <div class="input-wrapper">
+              <input class="input" type="radio" name="amount" id="one">
+              <label class="label" for="one">0-10</label>
+            </div>
+            <div class="input-wrapper">
+              <input class="input" type="radio" name="amount" id="two">
+              <label class="label" for="two">10-20</label>
+            </div>
+            <div class="input-wrapper">
+              <input class="input" type="radio" name="amount" id="three">
+              <label class="label" for="three">20-50</label>
+            </div>
+          </div>
+      </li>
+      
+   </ul>
+   
+    <div>
+      <!-- <button class="APPLY" type="submit">APPLY</button> -->
+      @@include('button/index.html', {
+        "text":"APPLY";
+        
+      })
+    </div>
+    
+  </div>
+  
+</section>
+<section class="container mini-mini-3">
+  <h2 class="show">product </h2>
+  <div class="conteiner-mini">
+      <img class="shark" src="../../static/images/sherky.png" alt="cons">
+      <p class="august">    SHARKY BEAN BAG CHAIR COVER           </p>
+      <p class="fastest">             $60.00 USD         </p>
+
+  </div>
+  <div class="conteiner-mini">
+    <img class="" src="../../static/images/brass.png" alt="cons">
+    <p class="august">    BRASS DECO FRAMES          </p>
+    <p class="fastest">    $66.00 USD            </p>
+    
+</div>
+<div class="conteiner-mini">
+    <img class="" src="../../static/images/cibo.png" alt="cons">
+    <p class="august">    CIBO FULL APRON            </p>
+    <p class="fastest">    $60.00 USD            </p>
+    
+</div>
+<div class="conteiner-mini">
+    <img class="" src="../../static/images/gatcha.png" alt="cons">
+    <p class="august">    GATCHA GATCHA GUMBALL MACHINE            </p>
+    <p class="fastest">    $56.00 USD        </p>
+   
+</div>
+<div class="conteiner-mini">
+    <img class="" src="../../static/images/cristmas.png" alt="cons">
+    <p class="august">    CHRISTMAS ADVENT SCENTED CANDLE          </p>
+    <p class="fastest">    $29.00 USD           </p>
+    
+</div>
+<div class="conteiner-mini">
+    <img class="" src="../../static/images/tangle.png" alt="cons">
+    <p class="august">    TANGLE SPINNING TEA LIGHT           </p>
+    <p class="fastest">   $56.00 USD            </p>
+    
+</div>
+</section>
+
+
+
+<!-- <section class="container pages"> -->
+  <div class="pages-pages container">
+    <div>
+        <button class="arrow-4-pages"> 
+          
+            <img class="arrows-l-r" src="../../static/images/Vector-left-4.png" alt="left">
+          
+          </button>
+    </div>  
+    <div class="button-number">
+        <button class="number">  
+          
+            <img src="../../static/images/1.png" alt="left">
+            
+          </button>
+          <button class="number">
+            
+            <img src="../../static/images/2.png" alt="left">
+            
+          </button>
+          <button class="number"> 
+            
+            <img src="../../static/images/3.png" alt="left">
+            
+          </button>
+          <button class="number">  
+            
+            <img src="../../static/images/4.png" alt="left">
+          
+          </button>
+    </div> 
+    <div>
+        <button class="arrow-4-pages">  
+          
+            <img class="arrows-l-r" src="../../static/images/Vector-right-4.png.png" alt="right">
+          
+          </button>
+    </div>
+    
+  </div>
+@@include('footer/index.html')
